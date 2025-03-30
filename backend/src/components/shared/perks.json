@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_perks",
+  "info": {
+    "displayName": "Perks"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

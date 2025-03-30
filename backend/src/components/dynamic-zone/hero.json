@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dynamic_zone_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "CTAs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
